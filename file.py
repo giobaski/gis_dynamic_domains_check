@@ -1,4 +1,4 @@
-new conflict
+
 subtypes = {
     1: {
          'Default': True,
