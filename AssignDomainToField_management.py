@@ -7,11 +7,11 @@
 
 
 # Import system modules
-import arcpy
+import arcpy, os
 
 try:
     # Set the workspace (to avoid having to type in the full path to the data every time)
-    arcpy.env.workspace = r"C:\Users\baski\Desktop\arcpy_domain\dynamic_domains_check.gdb"
+    arcpy.env.workspace = os.path.join(os.getcwd(),"dynamic_domains_check.gdb")
 
     # Set local parameters
     domName = "Material8"

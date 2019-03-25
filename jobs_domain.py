@@ -6,17 +6,18 @@
 # Author: ESRI
 
 # Import system modules
-import arcpy
+import arcpy, os
+
 
 try:
     # Set the workspace (to avoid having to type in the full path to the data every time)
-    arcpy.env.workspace = r"C:\Users\baski\Desktop\arcpy_domain\dynamic_domains_check.gdb"
+    arcpy.env.workspace = os.path.join(os.getcwd(),"dynamic_domains_check.gdb")
 
     # Set local parameters
     inFeatures = "Main_line"
 
     # Create domain list from jobs table
-    jobs_table = r"C:\Users\baski\Desktop\github\cost_automation_p_27\საპროექტო_ფორმა_14\New File Geodatabase.gdb\I_Shesasrulebeli_Samushaoebi"
+    jobs_table = "I_Shesasrulebeli_Samushaoebi"
     fields = ["ID", "NAME", "WORK_TYPE_NAME", "ACC_WORK_GROUP"]
 
     cursor = arcpy.da.SearchCursor(jobs_table, fields)
@@ -32,8 +33,8 @@ try:
         for row in cursor:
             if row[-1] == sub_list[i]:
                 list.append(row[0])
-        print str(i)+ ": "
-        print list
+        print (str(i)+ ": ")
+        print (list)
 
     # domains_Dict = {}
     # for i in range(len(sub_list)):
