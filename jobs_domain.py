@@ -1,45 +1,52 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+#საბტაიპების სია დინამიურად უნდა ამოვიღოთ ListSubtypes-ს საშუალებით
+subtype_list = {0: 'არხის მშენებლობა',
+                1: 'კაბელის მონტაჟი',
+                2: 'P2P ინსტალაცია',
+                3: 'კარადის მონტაჟი',
+                4: 'ბოძის მონტაჟი',
+                5: 'ქურო',
+                6: 'ODF-ი',
+                7: 'ჭის მონტაჟი',
+                8: 'სპლიტერი'}
 
-# Name: ManageSubtypes.py
-# Purpose: Create a subtype definition
-# Author: ESRI
-
-# Import system modules
-import arcpy, os
-
-
-try:
-    # Set the workspace (to avoid having to type in the full path to the data every time)
-    arcpy.env.workspace = os.path.join(os.getcwd(),"dynamic_domains_check.gdb")
-
-    # Set local parameters
-    inFeatures = "Main_line"
-
-    # Create domain list from jobs table
-    jobs_table = "I_Shesasrulebeli_Samushaoebi"
-    fields = ["ID", "NAME", "WORK_TYPE_NAME", "ACC_WORK_GROUP"]
-
-    cursor = arcpy.da.SearchCursor(jobs_table, fields)
-    sub_list = []
-    for row in cursor:
-        if row[-1] not in sub_list:
-            sub_list.append(row[-1])
-    sub_list = filter(None, sub_list)
-
-    cursor = arcpy.da.SearchCursor(jobs_table, fields)
-    for i in range(len(sub_list)):
-        list = []
-        for row in cursor:
-            if row[-1] == sub_list[i]:
-                list.append(row[0])
-        print (str(i)+ ": ")
-        print (list)
-
-    # domains_Dict = {}
-    # for i in range(len(sub_list)):
-    #     stypeDict[i] = sub_list[i]
-
-
-except Exception as err:
-    print(err.args[0])
+#ეს სია უნდა შეიქმნას სამუშაოების ცხრილიდან დინამიურად:
+domain_list = {
+        "არხის მშენებლობა": {
+                            1314 : "გოფრირებული მილი 25მმ",
+                            1307 : "ქვიშის ბალიშის მოწყობა (#PX0.35X0.1)",
+                            1310 : "გოფრირებულdsdsი მილი 25მმ",
+                            1301 : "ქვიშის ბdsdsალიშის მოწყობა (#PX0.35X0.1)"
+                            },
+        "კაბელის მონტაჟი" : {
+                            2363 : "კაბელი/ტპპ/7/4/მეორადი-ის დემონტაჟი",
+                            2394 : "კაბელი ოპტიკური/ADSS/12-ის მონტაჟი ტრანზიტულად"
+                            },
+        "P2P ინსტალაცია": {
+                            1253 : "როუტერი/D-Link/4port/Dir100/Router-ის მონტაჟი",
+                            1285 : "ONT/GPON/4 port/HG850a/HUAWEI მონტაჟი"
+                            },
+        "კარადის მონტაჟი": {
+                            1160 : "გამანაწილებელი კარადა 600X2-ის მონტაჟი",
+                            1122 : "GPON-ის სასადგურე კარადის მონტაჟი FIST-GR3-900-1"
+                            },
+        "ბოძის მონტაჟი":  {
+                             2007 : "ბოძი/ძირითადი/8.1მ-ის მონტაჟი",
+                             2206 : "ბოძი/ხის/მეორადი"
+                            },
+        "ქურო":          {
+                            2346 : "ქუროს სამონტაჟო კომპლექტი/FOSC-A/B-UNI-MOUNT-A-ის მონტაჟი",
+                            2076 : "ქურო გამანაწილებელი/500/2-600/2/6 თითიანი/6MRP 5/6-ის მონტაჟი"
+                            },
+        "ODF-ი":          {
+                            1314 : "გოფრირებული მილი 25მმ",
+                            1307 : "ქვიშის ბალიშის მოწყობა (#PX0.35X0.1)"
+                            },
+        "ჭის მონტაჟი":   {
+                            1314 : "გოფრირებული მილი 25მმ",
+                            1307 : "ქვიშის ბალიშის მოწყობა (#PX0.35X0.1)"
+                            },
+        "სპლიტერი":     {
+                            1677 : "ოპტიკური სპლიტერი/PLC/1:4/კონექტორის გარეშე -  მონტაჟი",
+                            1683 : "ოპტიკური სპლიტერი/PLC/1:8/SC/PC/კასეტით -  მონტაჟი "
+                            }
+        }

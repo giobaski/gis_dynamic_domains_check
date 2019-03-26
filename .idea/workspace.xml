@@ -2,43 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d98a3d-6a5d-4332-b0b1-aacdfa7b8f9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/arcpy_domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arcpy_domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddSubtype_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddSubtype_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignDomainToField_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssignDomainToField_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.TablesByName.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.TablesByName.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.gdbtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000001.gdbtablx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.CatItemsByPhysicalName.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.CatItemsByPhysicalName.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.CatItemsByType.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.CatItemsByType.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.FDO_UUID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.FDO_UUID.atx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddSubtype_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignDomainToField_management.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.freelist" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.freelist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtablx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByName.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByName.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByParentTypeID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByParentTypeID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByUUID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.CatItemTypesByUUID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.gdbtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000005.gdbtablx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByDestinationID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByDestinationID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByOriginID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByOriginID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByType.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.CatRelsByType.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.FDO_UUID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.FDO_UUID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.gdbtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000006.gdbtablx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByBackwardLabel.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByBackwardLabel.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByForwardLabel.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByForwardLabel.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByName.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByName.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByUUID.atx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.CatRelTypesByUUID.atx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.gdbtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000007.gdbtablx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/timestamps" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/timestamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_domain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_solution.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project.mxd" beforeDir="false" afterPath="$PROJECT_DIR$/project.mxd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.TablesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000002.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000002.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.CatItemsByPhysicalName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.CatItemsByType.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.FDO_UUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.freelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.spx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByParentTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByUUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByDestinationID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByOriginID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByType.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.FDO_UUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.freelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByBackwardLabel.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByForwardLabel.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByUUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.spx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/gdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gdb/timestamps" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +68,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$new_solution.coverage" NAME="new_solution Coverage Results" MODIFIED="1553521780115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$new_solution.coverage" NAME="new_solution Coverage Results" MODIFIED="1553598871598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$dom_dict_test.coverage" NAME="dom_dict_test Coverage Results" MODIFIED="1553585150427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$AssignDomainToField_management.coverage" NAME="AssignDomainToField_management Coverage Results" MODIFIED="1553499914200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$solution.coverage" NAME="solution Coverage Results" MODIFIED="1553500342106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gis_dynamic_domains_check$jobs_domain.coverage" NAME="jobs_domain Coverage Results" MODIFIED="1553505157174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -62,22 +84,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1666" />
+          <entry key="py" value="3047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1666" />
+          <entry key="Python" value="3047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -85,55 +107,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddSubtype_management.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_domain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="52" />
+            <state>
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/new_solution.py">
+        <entry file="file://$PROJECT_DIR$/solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssignDomainToField_management.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="34" column="91" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="91" />
+            <state relative-caret-position="374">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -147,6 +133,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>domain_list</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,8 +148,9 @@
         <option value="$PROJECT_DIR$/AssignDomainToField_management.py" />
         <option value="$PROJECT_DIR$/solution.py" />
         <option value="$PROJECT_DIR$/AddSubtype_management.py" />
-        <option value="$PROJECT_DIR$/jobs_domain.py" />
+        <option value="$PROJECT_DIR$/dom_dict_test.py" />
         <option value="$PROJECT_DIR$/new_solution.py" />
+        <option value="$PROJECT_DIR$/jobs_domain.py" />
       </list>
     </option>
   </component>
@@ -168,7 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -217,28 +209,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.new_solution">
-    <configuration name="AddSubtype_management" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="arcpy_domain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddSubtype_management.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="AssignDomainToField_management" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="arcpy_domain" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,6 +223,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AssignDomainToField_management.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dom_dict_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="arcpy_domain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dom_dict_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +288,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_solution.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gtsipuria\Desktop\GITHUB_clone\gis_dynamic_domains_check\solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +320,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.AddSubtype_management" />
       <item itemvalue="Python.AssignDomainToField_management" />
       <item itemvalue="Python.jobs_domain" />
       <item itemvalue="Python.solution" />
       <item itemvalue="Python.new_solution" />
+      <item itemvalue="Python.dom_dict_test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.new_solution" />
+        <item itemvalue="Python.dom_dict_test" />
         <item itemvalue="Python.jobs_domain" />
         <item itemvalue="Python.solution" />
         <item itemvalue="Python.AssignDomainToField_management" />
-        <item itemvalue="Python.AddSubtype_management" />
       </list>
     </recent_temporary>
   </component>
@@ -361,19 +353,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -387,49 +379,82 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_domain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddSubtype_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssignDomainToField_management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="34" column="91" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="91" />
+        <state relative-caret-position="238">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_solution.py">
+    <entry file="file://$PROJECT_DIR$/AddSubtype_management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom_dict_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_domain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
