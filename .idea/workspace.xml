@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9d98a3d-6a5d-4332-b0b1-aacdfa7b8f9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddSubtype_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignDomainToField_management.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.freelist" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.freelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtable" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtablx" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/a00000004.gdbtablx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_domains_check.gdb/timestamps" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_domains_check.gdb/timestamps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_domain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_solution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.mxd" beforeDir="false" afterPath="$PROJECT_DIR$/project.mxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.TablesByName.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000001.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000002.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000002.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000003.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.CatItemsByPhysicalName.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.CatItemsByType.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.FDO_UUID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.freelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000004.spx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByName.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByParentTypeID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.CatItemTypesByUUID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000005.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByDestinationID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByOriginID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.CatRelsByType.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.FDO_UUID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.freelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000006.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByBackwardLabel.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByForwardLabel.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByName.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.CatRelTypesByUUID.atx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000007.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbindexes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbtable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.gdbtablx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/a00000009.spx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/gdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gdb/timestamps" beforeDir="false" />
-    </list>
+    <list default="true" id="e9d98a3d-6a5d-4332-b0b1-aacdfa7b8f9f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,21 +25,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="5" />
           <entry key="py" value="3047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="3047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
@@ -110,16 +55,25 @@
         <entry file="file://$PROJECT_DIR$/jobs_domain.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -151,6 +105,7 @@
         <option value="$PROJECT_DIR$/dom_dict_test.py" />
         <option value="$PROJECT_DIR$/new_solution.py" />
         <option value="$PROJECT_DIR$/jobs_domain.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -447,14 +402,21 @@
     <entry file="file://$PROJECT_DIR$/jobs_domain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="391">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
