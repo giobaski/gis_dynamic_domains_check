@@ -1,11 +1,11 @@
 import arcpy, os
 
 # Set the workspace
-arcpy.env.workspace = os.path.join(os.getcwd(),"test5.gdb")
+arcpy.env.workspace = os.path.join(os.getcwd(),"test.gdb")
 
 # Set local parameters
-GDB = "test5.gdb"
-featureClass = "test5"
+GDB = "test.gdb"
+featureClass = "test"
 
 jobs_table = r"C:\Users\gtsipuria\Desktop\GITHUB_clone\gis_dynamic_domains_check\dynamic_domains_check.gdb\I_Shesasrulebeli_Samushaoebi"
 fields = ["ID", "NAME", "WORK_TYPE_NAME", "ACC_WORK_GROUP"]
